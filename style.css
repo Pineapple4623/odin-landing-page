@@ -84,6 +84,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 
 }
 .info-image{
@@ -94,6 +97,7 @@ button {
 }
 figcaption {
     text-align: center;
+    
 }
 .image {
     width: 150px;
@@ -102,5 +106,5 @@ figcaption {
     
     object-fit: cover;
     border-radius: 48px;
-    border: 5px #3882f6;
+    border: 2px solid #3882f6;
 }
