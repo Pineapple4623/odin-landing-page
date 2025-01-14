@@ -72,12 +72,17 @@ button {
     font-size: 18px;
     color:#e5e7eb;
 }
+.info {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
 .info-section {
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin-left: 75px;
-    margin-right: 75px;
+    
 
 }
 .info-head {
@@ -107,4 +112,29 @@ figcaption {
     object-fit: cover;
     border-radius: 48px;
     border: 1px solid #3882f6;
+}
+.quo {
+    
+    background-color: #e5e7eb;
+    padding-left: 5%;
+    padding: 5%;
+}
+
+.quo-section {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.quo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    padding-right: 5%;
+}
+
+.quo-caption {
+    text-align: end;
+    padding-right: 5%;
 }
