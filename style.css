@@ -9,6 +9,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto;
     padding: 0;
     margin: 0;
@@ -137,4 +139,43 @@ figcaption {
 .quo-caption {
     text-align: end;
     padding-right: 5%;
+}
+
+.action-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 6px;
+    gap: 15px;
+    padding :2%;
+}
+
+.action-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+}
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.action-head {
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.action-para {
+    color: #e5e7eb;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
 }
